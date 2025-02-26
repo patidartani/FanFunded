@@ -10,7 +10,7 @@ const Home1 = () => {
                    </span>
                    <h5>Place Picks on Your Favorite <br /> Sports <br />
                    & Earn Rewards</h5>
-                   <p>Take the Fan Funded challenge & show us your skills.
+                   <p>Take the Fan Funded challenge & show us your skills. <br />
                    If you have what it takes we will fund all your picks up!</p>
                    <button>
                     EARN REWARDS
