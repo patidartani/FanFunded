@@ -1,0 +1,33 @@
+.Home1-main {
+          width: 100%;
+          height: 100vh;  
+          display: flex;
+          background-position: center;
+          background-size: cover; 
+          background-repeat: no-repeat;
+          align-items: center;
+          justify-content: center;
+          background-image: url("../../assets/images/Home1bg.webp");
+          overflow: hidden; 
+        }
+        
+.Home1-main .Home1-content{
+          width: 90%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: row ;
+}
+.Home1-main .Home1-content .home1-left{
+          width: 50%;
+          display: flex;
+          align-items: flex-start;
+          justify-content: flex-start;
+          flex-direction: column;
+}
+.Home1-main .Home1-content .home1-right{
+          width: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+}
