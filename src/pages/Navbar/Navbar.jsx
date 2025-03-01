@@ -24,10 +24,10 @@ const Navbar = () => {
 
           <ul className={`nav-links ${menuOpen ? "open" : ""}`}>
             <li><Link to="/">Home</Link></li>
-            <li><Link to="/plans">Plans</Link></li>
+            <li><Link to="/evaluation-process ">Evaluation Process </Link></li>
+            <li><Link to="/challenges ">Challenges </Link></li>
             <li><Link to="/games">Games</Link></li>
             <li><Link to="/faq">FAQ</Link></li>
-            <li><Link to="/affiliates">Affiliates</Link></li>
             <li><Link to="/login">Login</Link></li>
           </ul>
         </div>
