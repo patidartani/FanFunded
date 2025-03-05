@@ -1,0 +1,180 @@
+.Signup-main{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-position: center;
+          background-size: cover;
+          height: 85vh;
+          color: #fff;
+          font-family: Arial, Helvetica, sans-serif;
+          background-repeat: no-repeat;
+          background-image: url("../../assets/images/login-bg.png");
+}
+.Signup-main .Signup-content{
+          width: 85%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+}
+.Signup-main .Signup-content form{
+          width: 30%;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          flex-direction: column;
+}
+.Signup-main .Signup-content form h5{
+          font-size: 2vmax;
+}
+.Signup-main .Signup-content form small{
+          font-size: 0.9vmax;
+          color: #dbdbdb;
+}.Signup-main .Signup-content form .sf-ipt {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-top: 0.5vmax;
+          padding: 0.6vmax 1vmax;
+          background: url('https://app.fanfunded.io/_next/static/media/outlined-white-input.384fbfc2.svg') no-repeat;
+          background-size: 100% 100%; /* Fix background stretching issue */
+          background-position: left center; /* Align background properly */
+          border: none;
+      }
+      
+      .Signup-main .Signup-content form .sf-ipt input {
+          outline: none;
+          border: none;
+          width: 90%;
+          color: #fff;
+          background: none;
+          padding: 0.5vmax 1vmax; /* Adjust padding */
+      }
+ .Signup-main .Signup-content form .signup-btn{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-top: 1vmax;
+ }
+ .Signup-main .Signup-content form .signup-btn button{
+          width: 100%;
+          border: none;
+          outline: none;
+          background: none;
+          font-weight: lighter;
+          letter-spacing: 0.2px;
+          font-size: 1vmax;
+          padding: 0.8vmax 1vmax;
+          color: #fff;
+          background: url('https://app.fanfunded.io/_next/static/media/gradient-button.6388aa42.svg') no-repeat center;
+          background-size: cover;
+          transition: 0.5s;
+ }
+ .Signup-main .Signup-content form .signup-btn button:hover{
+  transform: scale(1.1);
+}
+ .Signup-main .Signup-content form .new-ones{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-top: 1vmax;
+ }
+ .Signup-main .Signup-content form .new-ones a{
+         text-decoration: none;
+ }
+ .password-containers {
+          position: relative;
+          display: flex;
+          align-items: center;
+          width: 100%;
+      }
+      
+      .eye-icons {
+          position: absolute;
+          right: 20px;
+          cursor: pointer;
+          color: white;
+          font-size: 1.2rem;
+      }
+      
+
+ @media (max-width:768px) {
+          .Signup-main .Signup-content{
+                    width: 95%;
+          }
+          .Signup-main .Signup-content form{
+                    width: 100%;
+                    padding: 3vmax 0vmax;
+          }
+          .Signup-main .Signup-content form h5{
+                    font-size: 4vmax;
+          }
+          .Signup-main .Signup-content form small{
+                    font-size: 1.5vmax;
+          }
+          .Signup-main .Signup-content form .sf-ipt {
+                    padding: 1.2vmax 1vmax;
+                    background-size: 100% 100%;
+                }
+            
+                .Signup-main .Signup-content form .sf-ipt input {
+                    font-size: 1.8vmax; /* Adjust font size */
+                    padding: 1vmax; /* Increase padding */
+                }
+           .Signup-main .Signup-content form .forget{
+                    width: 90%;
+           }
+           .Signup-main .Signup-content form .forget a{ 
+                  font-size: 1.8vmax;
+           }
+           .Signup-main .Signup-content form .signup-btn{
+                    margin-top: 2vmax;
+           }
+           .Signup-main .Signup-content form .signup-btn button{
+                    padding: 1.5vmax 1vmax;
+           }
+           .Signup-main .Signup-content form .new-ones{
+                    margin-top: 3vmax;
+           }
+           .Signup-main .Signup-content form .new-ones a{
+                   text-decoration: none;
+           }
+               
+ }
+ @media (min-width:768px) and (max-width:1050px){
+          .Signup-main{
+                  height: 100vh;     
+          }
+          .Signup-main .Signup-content form{
+                    width: 100%;
+          }
+          .Signup-main .Signup-content form h5{
+                    font-size: 4vmax;
+          }
+          .Signup-main .Signup-content form small{
+                    font-size: 2vmax;
+          }
+          .Signup-main .Signup-content form .sf-ipt {
+                    width: 100%;
+                    padding: 3.5vmax 1vmax;
+           }
+           .Signup-main .Signup-content form .sf-ipt input::placeholder{
+                   font-size: 2vmax;
+           }
+           .Signup-main .Signup-content form .forget a{ 
+                  font-size: 2vmax;
+           }
+           .Signup-main .Signup-content form .signup-btn button{
+                    padding: 1.5vmax 1vmax;
+                    font-size: 3vmax;
+           }
+           .Signup-main .Signup-content form .new-ones {
+                    margin-top: 3vmax;
+           }
+           .Signup-main .Signup-content form .new-ones span{
+                   font-size: 2.5vmax;
+            }   
+ }

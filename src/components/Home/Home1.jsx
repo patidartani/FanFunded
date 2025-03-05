@@ -1,3 +1,6 @@
+import { useEffect, useRef } from "react";
+import gsap from "gsap";
+
 import "./Home1.css"
 import { useState } from "react"
 import Box1Img1 from "../../assets/images/homeBox1Img1.png"
@@ -9,6 +12,28 @@ const Home1 = () => {
   const handleToggle = () => {
     setIsChecked(!isChecked);
   };
+  const containerRef1 = useRef(null);
+  const containerRef2 = useRef(null);
+
+  useEffect(() => {
+    const animateScroll = (containerRef) => {
+      if (containerRef.current) {
+        const containerHeight = containerRef.current.scrollHeight; // Total height
+        gsap.to(containerRef.current, {
+          y: `-${containerHeight / 2}px`, // Scroll based on actual height
+          duration: 10, // Adjust speed based on content
+          ease: "linear",
+          repeat: -1,
+          yoyo: true,
+        });
+      }
+    };
+
+    animateScroll(containerRef1);
+    animateScroll(containerRef2);
+  }, []);
+
+
 
   return (
     <div className='Home1-main'>
@@ -35,7 +60,7 @@ const Home1 = () => {
 
             <div className="Container-leftContent" >
 
-              <div className="scroll-div">
+              <div className="scroll-div" ref={containerRef1} style={{ display: "flex", flexDirection: "column", gap: "1rem", position: "absolute", top: "0" }}>
                 <div className="Box1">
                   <div className="b1T">
                     <img src={Box1Img1} alt="" />
@@ -353,8 +378,8 @@ const Home1 = () => {
             </div>
 
             {/* ----------------------------------------------------------- */}
-            <div className="Container-leftContent">
-              <div className="scroll-div">
+            <div className="Container-leftContent" >
+              <div className="scroll-div" ref={containerRef2} style={{ display: "flex", flexDirection: "column", gap: "1rem", position: "absolute", top: "0" }}>
 
                 <div className="Box8">
                   <div className="card-box mb-2">

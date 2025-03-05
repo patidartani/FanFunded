@@ -1,0 +1,194 @@
+.WherePlay-main {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: #000;
+          position: relative;
+          overflow: hidden;
+          font-family: Arial, Helvetica, sans-serif;
+          padding-top: 4vmax;
+          color: #fff;
+          padding-bottom: 2vmax;
+}
+
+.background-image {
+          position: absolute;
+          left: 3%;
+          top: 5%;
+          transform: translateY(-50%);
+          z-index: 1;
+          width: 100%;
+          opacity: 1;
+}
+.bg-new {
+          position: absolute;
+          left: 85%;
+          width: 150px;
+}
+.bg-left-imgs {
+          position: absolute;
+          left: 0;
+          top: 10%;
+          width: 200px;
+}
+
+.where {
+          width: 85%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          position: relative;
+          /* Ensure content is above background image */
+          z-index: 2;
+}
+
+.where .where-top {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+}
+
+.where .where-top .bg-bottom-right {
+          position: relative;
+          background: url("../../assets/images/dashed.png") no-repeat bottom 0 right 0;
+          padding-bottom: 30px;
+          display: inline-block;
+}
+
+.where .where-btm {
+          width: 95%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: relative;
+          margin-top: 3vmax;
+          overflow: hidden;
+}
+
+.where .where-btm img {
+          max-width: 100%;
+}
+
+.where .where-btm .where-text {
+          width: 75%;
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+          flex-direction: column;
+          position: absolute;
+          gap: 2vmax;
+}
+
+.where-btn .btn-where2 {
+          position: relative;
+          display: inline-block;
+          padding: 12px 40px 18px;
+          /* Thoda compact kiya */
+          font-size: 12px;
+          /* Choti button ke liye */
+          font-weight: 700;
+          text-align: center;
+          background: url("../../assets/images/btn-mid.png") repeat-x;
+          background-size: contain;
+          transition: transform 0.2s ease-in-out, all 0.3s ease-in-out;
+          left: 30px;
+}
+
+/* Subtle Hover Effect */
+.where-btn .btn-where2:hover {
+          transform: scale(1.05);
+}
+
+.where-btn .btn-where2 span {
+          position: relative;
+          top: -2px;
+          /* Slight adjustment */
+          font-size: 1.1vmax;
+          letter-spacing: 0px !important;
+}
+
+.where-btn .btn-where2::before,
+.where-btn .btn-where2::after {
+          content: "";
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          width: 30px;
+          /* Thoda chota kiya */
+          background-size: contain;
+}
+
+.where-btn .btn-where2::before {
+          background: url("../../assets/images/btn-right.png") no-repeat;
+          right: -28px;
+          /* Adjusted */
+}
+
+.where-btn .btn-where2::after {
+          background: url("../../assets/images/btn-left.png") no-repeat;
+          left: -22px;
+          /* Adjusted */
+}
+
+.where-btn a {
+          color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+          text-decoration: none !important;
+          letter-spacing: 0;
+}
+
+@media (max-width:768px) {
+          .WherePlay-main {
+                    width: 100%;
+          }
+          .background-image {
+                   display: none;
+          }
+          .where {
+                    width: 95%;
+          }
+          .where .where-top {
+                    width: 100%;
+          }
+          .where .where-btm {
+                    width:100%;
+          }
+          
+          
+          .where .where-btm .where-text {
+                    width: 70%;
+          }
+          .where .where-btm .where-text h2{
+                  font-size: 1.5vmax;
+          }
+          
+          .where-btn .btn-where2 {
+                    padding: 12px 20px 18px;
+          }
+          .where-btn .btn-where2 span {
+                    font-size: 1.8vmax;
+          }
+          
+          .where-btn .btn-where2::before,
+          .where-btn .btn-where2::after {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    width: 40px;
+                    /* Thoda chota kiya */
+                    background-size: contain;
+          }
+          
+          .where-btn .btn-where2::before {
+                     bottom: 0.1vmax;
+                    right: -39px;
+          }
+          
+          .where-btn .btn-where2::after {
+                    left: -21px;
+                    bottom: 0.1vmax;
+          }  
+}

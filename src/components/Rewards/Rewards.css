@@ -1,0 +1,391 @@
+.Rewards-main{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: #000;
+          padding-bottom: 3vmax;
+          color: #fff;
+}
+ .Rewards-main .Rewards{
+          width: 85%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+ }
+ .Rewards-main .Rewards  .Rewards-top{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-align: justify;
+ }
+ .Rewards-main .Rewards  .Rewards-top h1{
+         text-align: justify;
+ }
+
+ .Rewards-main .Rewards  .Rewards-top .line-right-box.dubble-line {
+          background: url("https://fanfunded.io/wp-content/themes/fanfunded-wp-theme/img/heading-bg-right.png") no-repeat right bottom;
+          padding-top: 7vmax;
+          padding-right: 4vmax;
+          padding-bottom: 1vmax;
+      }
+      .Rewards-main .Rewards .Rewards-medium{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-top: 4vmax;
+      }
+      .Rewards-main .Rewards .Rewards-medium .reward-1{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        position: relative;
+
+      }
+      .Rewards-main .Rewards .Rewards-medium .reward-1 .r-text{
+        position: absolute;
+        left: 5%;
+       
+      }
+      .Rewards-main .Rewards .Rewards-medium .reward-1   .img-boy{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+      }
+      .btn-reward {
+        margin-top: 4vmax;
+}
+
+.btn-reward .btn-white3 {
+        position: relative;
+        display: inline-block;
+        padding: 14px 28px 16px; /* Width badhane ke liye */
+        min-width: 150px; /* Thodi si fixed width */
+        font-size: 12px;
+        font-weight: 700;
+        text-align: center;
+        background: url("../../assets/images/btn-mid.png") repeat-x;
+        background-size: contain;
+        transition: transform 0.2s ease-in-out, all 0.3s ease-in-out;
+        left: 30px;
+}
+.btn-reward .btn-white3:hover {
+        transform: scale(1.05);
+      }
+      
+.btn-reward .btn-white3 span {
+        position: relative;
+        top: -2px;
+        font-size: 1.1vmax;
+        letter-spacing: 0px !important;
+}
+
+.btn-reward .btn-white3::before,
+.btn-reward .btn-white3::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 35px; /* Side images bhi adjust ki */
+        background-size: contain;
+}
+
+.btn-reward .btn-white3::before {
+        background: url("../../assets/images/btn-right.png") no-repeat;
+        right: -33px; /* Adjusted for wider button */
+}
+
+.btn-reward .btn-white3::after {
+        background: url("../../assets/images/btn-left.png") no-repeat;
+        left: -24px; /* Adjusted for wider button */
+}
+
+.btn-reward a {
+        color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+        text-decoration: none !important;
+        letter-spacing: 0;
+}
+
+
+.Reward-btm{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-top: 2vmax;
+}
+
+.Reward-btm .RB-1{
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        position: relative;
+}
+.Reward-btm .RB-1 .golar-img{
+        max-width: 100%;
+        height: auto;
+}
+.Reward-btm .RB-1 .text-r{
+        position: absolute;
+        padding-left: 1vmax;
+        padding-top: 1vmax;
+}
+.Reward-btm .RB-1  .soccer-img{
+        position: absolute;
+        bottom: 0;
+        width: 200px;
+        height: 150px;
+       left: 120%;
+}
+.btn-rewards {
+        margin-top: 2vmax;
+}
+
+.btn-rewards .r-white-btn {
+        position: relative;
+        display: inline-block;
+        padding: 8px 20px 10px; 
+        min-width: 100px; 
+        font-weight: 700;
+        background: #fff;
+        text-align: center;
+        /* background: url("../../assets/images/btn-mid.png") repeat-x; */
+        background-size: contain;
+        transition: transform 0.1s ease-in-out, all 0.2s ease-in-out;
+        left: 30px;
+}
+.btn-rewards .r-white-btn:hover {
+        transform: none; /* Scale effect remove */
+        left: 20px; /* Button ko left shift karne ke liye */
+    }
+    
+      
+.btn-rewards .r-white-btn span {
+        position: relative;
+        top: -2px;
+        font-size: 1vmax;
+        letter-spacing: 0px !important;
+}
+
+.btn-rewards .r-white-btn::before,
+.btn-rewards .r-white-btn::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 35px; /* Side images bhi adjust ki */
+        background-size: contain;
+}
+
+.btn-rewards .r-white-btn::before {
+        background: url("../../assets/images/btn-right.png") no-repeat;
+        right: -33px; /* Adjusted for wider button */
+}
+
+.btn-rewards .r-white-btn::after {
+        background: url("../../assets/images/btn-left.png") no-repeat;
+        left: -24px; /* Adjusted for wider button */
+}
+
+.btn-rewards a {
+        color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+        text-decoration: none !important;
+        letter-spacing: 0;
+}
+
+
+@media (max-width:768px) {
+    .Rewards-main{
+        width: 100%;
+}
+.Rewards-main .Rewards{
+        width: 95%;
+}
+.Rewards-main .Rewards  .Rewards-top{
+        width: 100%;
+        margin-top: 5vmax;
+}
+.Rewards-main .Rewards  .Rewards-top h1{
+       text-align: justify;
+       font-size:3vmax;
+}
+
+.Rewards-main .Rewards  .Rewards-top .line-right-box.dubble-line {
+        padding-top: 5vmax;
+        padding-right: 10vmax;
+        padding-bottom: 3vmax;
+    }
+
+    /* ------------------ */
+    .Rewards-main .Rewards .Rewards-medium{
+      width: 95%;
+      flex-direction: column;
+      margin-top: 5vmax;
+      gap: 5vmax;
+    }
+    .Rewards-main .Rewards .Rewards-medium .reward-1{
+      width: 100%;
+      flex-direction: row;
+    }
+    .Rewards-main .Rewards .Rewards-medium .reward-1 .r-text{
+      position: absolute;
+      left: 5%;
+    }
+    .Rewards-main .Rewards .Rewards-medium .reward-1 .r-text h2{
+       font-size: 2.6vmax;
+      }
+    .Rewards-main .Rewards .Rewards-medium .reward-1   .img-boy{
+      width: 45%;
+      height: 200px;
+    }
+    .btn-reward {
+      margin-top: 3vmax;
+}
+
+.btn-reward .btn-white3 {
+      min-width: 100px; 
+      left: 13px;
+      background: none;
+      background-color: #fff;
+}
+.btn-reward .btn-white3 span {
+      font-size: 1.7vmax;
+}
+
+
+/* -------------------------------- */
+.Reward-btm{
+      width: 95%;
+      justify-content: space-between;
+      flex-direction: column;
+      margin-top: 5vmax;
+      gap: 3vmax;
+}
+.Reward-btm .RB-1{
+      width: 95%;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      overflow: hidden;
+}
+
+.Reward-btm .RB-1 .text-r{
+      padding-left: 2vmax;
+}
+.Reward-btm .RB-1  .soccer-img{
+      width: 150px;
+      height: 130px;
+     left: 100%;
+}
+.btn-rewards {
+      margin-top: 2vmax;
+}
+.btn-rewards .r-white-btn span{
+    font-size: 1.5vmax;
+}
+
+}
+
+@media (min-width:768px) and (max-width:1050px) {
+    .Rewards-main{
+        width: 100%;
+}
+.Rewards-main .Rewards{
+        width: 95%;
+}
+.Rewards-main .Rewards  .Rewards-top{
+        width: 100%;
+        margin-top: 5vmax;
+}
+.Rewards-main .Rewards  .Rewards-top h1{
+       text-align: justify;
+       font-size:3vmax;
+}
+
+.Rewards-main .Rewards  .Rewards-top .line-right-box.dubble-line {
+        padding-top: 5vmax;
+        padding-right: 10vmax;
+        padding-bottom: 3vmax;
+    }
+
+    /* ------------------ */
+    .Rewards-main .Rewards .Rewards-medium{
+      width: 95%;
+      flex-direction: column;
+      margin-top: 5vmax;
+      gap: 5vmax;
+    }
+    .Rewards-main .Rewards .Rewards-medium .reward-1{
+      width: 100%;
+      flex-direction: row;
+    }
+    .Rewards-main .Rewards .Rewards-medium .reward-1 .r-text{
+      position: absolute;
+      left: 5%;
+    }
+    .Rewards-main .Rewards .Rewards-medium .reward-1 .r-text h2{
+       font-size: 2.9vmax;
+      }
+    .Rewards-main .Rewards .Rewards-medium .reward-1   .img-boy{
+      width: 300px;
+      height: 300px;
+    }
+    .btn-reward {
+      margin-top: 3vmax;
+}
+
+.btn-reward .btn-white3 {
+      min-width: 100px; 
+      left: 13px;
+      padding: 10px 28px 9px;
+      background: none;
+      background-color: #fff;
+}
+.btn-reward .btn-white3 span {
+      font-size: 1.7vmax;
+}
+
+
+/* -------------------------------- */
+.Reward-btm{
+      width: 95%;
+      justify-content: space-between;
+      flex-direction: column;
+      margin-top: 5vmax;
+      gap: 3vmax;
+}
+.Reward-btm .RB-1{
+      width: 95%;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+}
+
+.Reward-btm .RB-1 .text-r{
+      padding-left: 2vmax;
+      padding-top: 4vmax;
+}
+.Reward-btm .RB-1  .soccer-img{
+      width: 200px;
+      height: auto;
+     left: 140%;
+     top: 4vmax;
+}
+.btn-rewards {
+      margin-top: 2vmax;
+}
+.btn-rewards .r-white-btn span{
+    font-size: 1.5vmax;
+}
+
+}
+    

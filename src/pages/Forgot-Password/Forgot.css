@@ -1,0 +1,166 @@
+.Forgot-main{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-position: center;
+          background-size: cover;
+          height: 85vh;
+          color: #fff;
+          font-family: Arial, Helvetica, sans-serif;
+          background-repeat: no-repeat;
+          background-image: url("../../assets/images/login-bg.png");
+}
+.Forgot-main .Forgot-content{
+          width: 85%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+}
+.Forgot-main .Forgot-content form{
+          width: 30%;
+          padding: 2vmax 0.5vmax;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          flex-direction: column;
+}
+.Forgot-main .Forgot-content form h5{
+          font-size: 2vmax;
+}
+.Forgot-main .Forgot-content form small{
+          font-size: 0.9vmax;
+          color: #dbdbdb;
+}
+.Forgot-main .Forgot-content form .forgot-ipt {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-top: 2vmax;
+          padding: 0.8vmax 1vmax;
+          background: url('https://app.fanfunded.io/_next/static/media/outlined-white-input.384fbfc2.svg') no-repeat center;
+          background-size: contain;
+          border: none; 
+ }
+ .Forgot-main .Forgot-content form .forgot-ipt input{
+         outline: none;
+         border: none;
+         width: 90%;
+         color: #fff;
+         background: none;
+ }
+ .Forgot-main .Forgot-content form .reset-btn{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-top: 1vmax;
+ }
+ .Forgot-main .Forgot-content form .reset-btn button{
+          width: 100%;
+          border: none;
+          outline: none;
+          background: none;
+          padding: 0.8vmax 1vmax;
+           font-weight: lighter;
+           letter-spacing: 0.2px;
+           font-size: 1vmax;
+          color: #fff;
+          background: url('https://app.fanfunded.io/_next/static/media/gradient-button.6388aa42.svg') no-repeat center;
+          background-size: cover;
+          transition: 0.5s;
+ }
+ .Forgot-main .Forgot-content form .reset-btn button:hover{
+       transform: scale(1.1);
+}
+ .Forgot-main .Forgot-content form .f-new-one{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-top: 1vmax;
+ }
+ .Forgot-main .Forgot-content form .f-new-one a{
+         text-decoration: none;
+ }
+ .f-password-container {
+          position: relative;
+          display: flex;
+          align-items: center;
+          width: 100%;
+      }
+      
+      .f-eye-icon {
+          position: absolute;
+          right: 20px;
+          cursor: pointer;
+          color: white;
+          font-size: 1.2rem;
+      }
+      
+
+ @media (max-width:768px) {
+          .Forgot-main .Forgot-content{
+                    width: 95%;
+          }
+          .Forgot-main .Forgot-content form{
+                    width: 100%;
+                    padding: 3vmax 0vmax;
+          }
+          .Forgot-main .Forgot-content form h5{
+                    font-size: 4vmax;
+          }
+          .Forgot-main .Forgot-content form small{
+                    font-size: 1.5vmax;
+          }
+          .Forgot-main .Forgot-content form .forgot-ipt {
+                    width: 100%;
+                    padding: 2vmax 1vmax;
+           }
+           .Forgot-main .Forgot-content form .reset-btn{
+                    margin-top: 2vmax;
+           }
+           .Forgot-main .Forgot-content form .reset-btn button{
+                    padding: 1.5vmax 1vmax;
+           }
+           .Forgot-main .Forgot-content form .f-new-one{
+                    margin-top: 3vmax;
+           }
+           .Forgot-main .Forgot-content form .f-new-one a{
+                   text-decoration: none;
+           }
+               
+ }
+ @media (min-width:768px) and (max-width:1050px){
+          .Forgot-main{
+                  height: 100vh;     
+          }
+          .Forgot-main .Forgot-content form{
+                    width: 100%;
+          }
+          .Forgot-main .Forgot-content form h5{
+                    font-size: 4vmax;
+          }
+          .Forgot-main .Forgot-content form small{
+                    font-size: 2vmax;
+          }
+          .Forgot-main .Forgot-content form .forgot-ipt {
+                    width: 100%;
+                    padding: 5vmax 1vmax;
+           }
+           .Forgot-main .Forgot-content form .forgot-ipt input::placeholder{
+                   font-size: 2vmax;
+           }
+          
+           .Forgot-main .Forgot-content form .reset-btn button{
+                    padding: 1.5vmax 1vmax;
+                    font-size: 3vmax;
+           }
+           .Forgot-main .Forgot-content form .f-new-one {
+                    margin-top: 3vmax;
+           }
+           .Forgot-main .Forgot-content form .f-new-one span{
+                   font-size: 3vmax;
+            }   
+ }

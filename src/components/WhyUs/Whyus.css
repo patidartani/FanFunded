@@ -1,0 +1,133 @@
+.Whyus-main{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: #000;
+          color: #fff;
+}
+.Whyus-main .why-us{
+          width: 85%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+}
+.Whyus-main .why-us .why-top{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+}
+.Whyus-main .why-us .why-top h3{
+          text-align: center;
+          font-size: 3vmax;
+ }
+.Whyus-main .why-us .why-top p{
+         text-align: center;
+ margin-top: 1vmax;
+ font-size: 1.2vmax;
+}
+.Whyus-main .why-us .why-btm{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap;
+          margin-top: 3vmax;
+          gap: 1vmax;
+}
+.Whyus-main .why-us .why-btm .why-box {
+          width: 30%;
+          height: 240px;
+          display: flex;
+          align-items: flex-start;
+          justify-content: flex-start;
+          flex-direction: column;
+          padding: 50px 40px;
+          position: relative;
+          background-image: url("https://fanfunded.io/wp-content/themes/fanfunded-wp-theme/img/bx-1.svg");
+          background-size: cover;  /* Image ko pura box cover karne ke liye */
+          background-repeat: no-repeat; 
+          background-position: center; /* Image ko center align karne ke liye */
+          transition: background-image 0.3s ease-in-out; /* Smooth transition effect */
+      }
+      
+      .Whyus-main .why-us .why-btm .why-box:hover {
+          background-image: url("https://fanfunded.io/wp-content/themes/fanfunded-wp-theme/img/bg-purple.svg");
+      }
+.Whyus-main .why-us .why-btm .why-box h5{
+        font-size: 1.9vmax;
+        margin-bottom: 1.3vmax;
+}
+
+@media (max-width:768px) {
+    .Whyus-main{       
+        width: 100%;
+        padding-top: 5vmax;
+}
+.Whyus-main .why-us{
+        width: 95%;
+
+}
+.Whyus-main .why-us .why-top{
+        width: 100%;
+}
+.Whyus-main .why-us .why-top h3{
+        font-size: 3.5vmax;
+}
+.Whyus-main .why-us .why-top p{
+font-size: 2vmax;
+}
+.Whyus-main .why-us .why-btm{
+        width: 100%;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        gap: 3vmax;
+}
+.Whyus-main .why-us .why-btm .why-box {
+        width: 90%;
+        padding: 30px 30px;
+        height: auto;
+    }
+.Whyus-main .why-us .why-btm .why-box h5{
+      font-size: 2.5vmax;
+}
+
+}
+
+@media (min-width:768px)and (max-width:1050px) {
+    .Whyus-main{
+        width: 100%;
+        padding-top: 5vmax;
+}
+.Whyus-main .why-us{
+        width: 95%;
+
+}
+.Whyus-main .why-us .why-top{
+        width: 100%;
+}
+.Whyus-main .why-us .why-top h3{
+        font-size: 3.5vmax;
+}
+.Whyus-main .why-us .why-top p{
+font-size: 2vmax;
+}
+.Whyus-main .why-us .why-btm{
+        width: 100%;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        gap: 4vmax;
+}
+.Whyus-main .why-us .why-btm .why-box {
+        width: 80%;
+        padding: 30px 40px;
+        height: auto;
+    }
+.Whyus-main .why-us .why-btm .why-box h5{
+      font-size: 2.8vmax;
+}
+
+}

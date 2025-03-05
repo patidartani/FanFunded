@@ -1,0 +1,164 @@
+.Footer-main{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: #000;
+          color: #fff;
+}
+.Footer-main .footer-content{
+          width: 100%;
+          display: flex;
+          padding: 4vmax 7vmax;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          background-image: url("../../assets/images/bg-footer.png");
+}
+.Footer-main .footer-content .footer-top{
+         width: 100%;
+         display: flex;
+         align-items: flex-start;
+         justify-content: flex-start;
+         flex-direction: row;
+         gap: 2vmax;
+}
+.Footer-main .footer-content .footer-top .F-one{
+          width: 100%;
+          display: flex;
+          align-items: flex-start;
+          justify-content: flex-start;
+          flex-direction: column;
+}
+.Footer-main .footer-content .footer-top .F-one h5{
+   font-weight: 600;
+   font-size: 1.4vmax;
+}
+.Footer-main .footer-content .footer-top .F-one h5 img{
+          width: 70%;
+}
+.Footer-main .footer-content .footer-top .F-one .links{
+          width: 90%;
+          margin-top: 1vmax;
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+          flex-direction: column;
+ }
+ .Footer-main .footer-content .footer-top .F-one .links a{
+         text-decoration: none;
+         color: #fff;
+ }  
+ .Footer-main .footer-content .footer-top .F-one .links a:hover{
+          color:#D000CC;
+  }  
+.Footer-main .footer-content .footer-btm{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-direction: column;
+          margin-top: 3vmax;
+}
+.Footer-main .footer-content .footer-btm p{
+         text-align: center;
+}
+
+
+@media (max-width:768px) {
+         
+          .Footer-main{
+                    width: 100%;
+                    padding-top: 5vmax;
+          }
+          .Footer-main .footer-content{
+                    width: 100%;
+                    flex-direction: column;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                padding: 5vmax 2.5vmax;
+
+          }
+          .Footer-main .footer-content .footer-top{
+                   width: 100%;
+                   flex-direction: column;
+                   gap: 4vmax;
+          }
+          .Footer-main .footer-content .footer-top .F-one{
+                    width: 100%;
+          }
+          .Footer-main .footer-content .footer-top .F-one h5{
+             font-size: 3.7vmax;
+          }
+          .Footer-main .footer-content .footer-top .F-one h5 img{
+                    width: 60%;
+          }
+          .Footer-main .footer-content .footer-top .F-one .links{
+                    width: 100%;
+                  gap: 0.3vmax;
+           } 
+          .Footer-main .footer-content .footer-btm{
+                    width: 100%;
+                    margin-top: 4vmax;
+          }
+          .Footer-main .footer-content .footer-btm p{
+                   text-align: justify;
+          }
+}
+
+
+@media (min-width:768px) and (max-width:1050px){
+         
+          .Footer-main{
+                    width: 100%;
+                    padding-top: 5vmax;
+          }
+          .Footer-main .footer-content{
+                    width: 100%;
+                    flex-direction: column;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                padding: 5vmax 2.5vmax;
+
+          }
+          .Footer-main .footer-content p{
+                 font-size: 2vmax;
+
+          }
+          .Footer-main .footer-content span{
+                    font-size: 2vmax;
+             }
+          .Footer-main .footer-content .footer-top{
+                   width: 100%;
+                   flex-direction: column;
+                   gap: 4vmax;
+          }
+          .Footer-main .footer-content .footer-top .F-one{
+                    width: 100%;
+          }
+          .Footer-main .footer-content .footer-top .F-one h5{
+             font-size: 4vmax;
+          }
+          .Footer-main .footer-content .footer-top .F-one h5 img{
+                    width: 60%;
+          }
+          .Footer-main .footer-content .footer-top .F-one .links{
+                    width: 100%;
+                  gap: 0.3vmax;
+           } 
+           .Footer-main .footer-content .footer-top .F-one .links a{
+                  font-size: 2vmax;
+           } 
+          .Footer-main .footer-content .footer-btm{
+                    width: 100%;
+                    margin-top: 4vmax;
+          }
+          .Footer-main .footer-content .footer-btm p{
+                   text-align: justify;
+          }
+}
